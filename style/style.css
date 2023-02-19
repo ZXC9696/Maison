@@ -1,0 +1,340 @@
+@import 'font.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.container {
+    max-width: 1750px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header__nav {
+    padding: 31px 0;
+    background: #FFFFFF;
+}
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.header__link {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    transition: .4s;
+}
+.header__link:hover {
+    color: burlywood;
+}
+.header__link-list {
+    margin-left: 20px;
+}
+.header__button {
+    background: #000000;
+    padding: 24px 39px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: inline-block;
+    transition: .4s;
+}
+.header__button:hover {
+    background: burlywood;
+    color: #000000;
+}
+.header__intro {
+    background: url(../img/3.png) center center / cover;
+    min-height: 800px;
+    height: 100%;
+    position: relative;
+}
+.header__intro .container {
+    padding-left: 120px;
+    padding-top: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header__intro-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.15em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.header__intro-text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    max-width: 790px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.header__intro-img {
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 60px);
+}
+.home {
+    padding: 60px 0;
+    background: #FAFAFA;
+}
+.home .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.15em;
+    color: #000000;
+}
+.home-text {
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    max-width: 939px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+.home__text {
+    font-family: 'Herr_Von_Muellerhoff';
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 100px;
+    text-align: center;
+    color: #000000;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 480px;
+    grid-template-areas: 
+    "product1 product1 product2 product3"
+    "product1 product1 product4 product5"
+    "product6 product7 product8 product8"
+    ;
+}
+.product__img {
+    width: 100%;
+    height: 100%;
+}
+.product1 {
+    grid-area: product1;
+}
+.product2 {
+    grid-area: product2;
+    padding: 65px 135px 112px 40px;
+    background: #FFFFFF;
+}
+.product3 {
+    grid-area: product3;
+}
+.product4 {
+    grid-area: product4;
+}
+.product5 {
+    grid-area: product5;
+    padding: 65px 135px 112px 40px;
+    background: #FFFFFF;
+}
+.product6 {
+    grid-area: product6;
+}
+.product7 {
+    grid-area: product7;
+    padding: 65px 135px 112px 40px;
+    background: #FFFFFF;
+}
+.product8 {
+    grid-area: product8;
+}
+
+.product__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+.product__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 38px;
+}
+.product__btn {
+    background: #000000;
+    padding: 18px 38px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+    transition: .4s;
+}
+.product__btn:hover {
+    background: burlywood;
+    color: #000000;
+}
+.footer {
+    background: #151414;
+    padding: 67px 0px 89px;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+.maison {
+    display: flex;
+    flex-direction: column;
+}
+.maison__title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.maison__text {
+    width: 295px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6D6D6D;
+    margin-top: 15px;
+}
+.maison img {
+    width: 120px;
+    height: 120px;
+}
+.posts__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.posts__text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+.posts__data {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6D6D;
+    margin-bottom: 19px;
+}
+.posts__datas {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D6D6D;
+    margin-top: 25px;
+}
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+.tweets {
+    display: flex;
+    flex-direction: column;
+}
+.tweets__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.tweets__text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #575656;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+}
+.socials__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+.socials__form {
+    display: flex;
+}
+.socials .socials__form input {
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #575656;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 3px 0px 0px 3px;
+}
+.socials__btn {
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 9px;
+    background: #505050;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.socials__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6D6D6D;
+    width: 295px;
+    margin-top: 30px;
+    margin-bottom: 38px;
+}
+.socials__list {
+    display: flex;
+    gap: 15px;
+}

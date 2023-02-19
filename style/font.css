@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-ExtraBold.ttf');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Herr_Von_Muellerhoff';
+    src: url('../fonts/Herr_Von_Muellerhoff/HerrVonMuellerhoff-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/webfonts/fa-solid-900.woff2');
+    font-weight: 900;
+}
+.fa-solid {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+.header__icon::before {
+    content: '\f0c9';
+    font-style: normal;
+    font-size: 30px;
+    color: #000000;
+    transition: .4s;
+}
+.header__icon:hover::before {
+    color: burlywood;
+    transition: .4s;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/webfonts/fa-brands-400.woff2');
+    font-weight: 400;
+}
+.fa-brands {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+.socials__icon::before {
+    content: '\f39e';
+    font-style: normal;
+    font-size: 35px;
+    color: #6D6D6D;
+    transition: .4s;
+}
+.socials__twitter::before {
+    content: '\f099';
+    font-style: normal;
+    font-size: 35px;
+    color: #6D6D6D;
+    transition: .4s;
+}
+.socials__pinterest::before {
+    content: '\f231';
+    font-style: normal;
+    font-size: 35px;
+    color: #6D6D6D;
+    transition: .4s;
+}
+.socials__insta::before {
+    content: '\f16d';
+    font-style: normal;
+    font-size: 35px;
+    color: #6D6D6D;
+    transition: .4s;
+}
+.socials__icon:hover::before {
+    color: burlywood;
+    transition: .4s;
+}
+.socials__twitter:hover::before {
+    color: burlywood;
+    transition: .4s;
+}
+.socials__pinterest:hover::before {
+    color: burlywood;
+    transition: .4s;
+}
+.socials__insta:hover::before {
+    color: burlywood;
+    transition: .4s;
+}
